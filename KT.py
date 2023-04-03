@@ -18,7 +18,7 @@ class MrX:
 
     def title(self):
         ctypes.windll.kernel32.SetConsoleTitleW(
-            f"EpicGames Code Checker | Invalid: {self.invalid} | Hit: {self.hit} | CPM: {self.cpm} | Bot: {self.threads} | CrackerMain.COM |")
+            f"EpicGames Code Checker | Invalid: {self.invalid} | Hit: {self.hit} | CPM: {self.cpm} | Bot: {self.threads} |")
 
     def banner(self):
         print(f"""{Fore.LIGHTMAGENTA_EX}
